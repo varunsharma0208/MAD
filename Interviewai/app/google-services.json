@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "873463864540",
+    "project_id": "interviewai-4e652",
+    "storage_bucket": "interviewai-4e652.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873463864540:android:1255ec03bdbf9e44de2819",
+        "android_client_info": {
+          "package_name": "com.techiguru.interviewai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCUQwjNgzxHD4ZsQTLUCV3J_c1kBRA1e0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

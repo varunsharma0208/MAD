@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Interviewai"
+        parent="Theme.Material3.Light.NoActionBar">
+
+    </style>
+
+    <style name="Theme.Interviewai"
+        parent="Base.Theme.Interviewai" />
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_logo">
+
+    </ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/full_name"
+        android:id="@+id/et_fullName"
+        android:textColor="@color/dgrey"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/dgrey"
+        android:background="@drawable/et_back"
+        android:layout_marginTop="40dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_id"
+        android:id="@+id/et_emailID"
+        android:textColor="@color/dgrey"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/dgrey"
+        android:background="@drawable/et_back"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:id="@+id/et_password"
+        android:inputType="textPassword"
+        android:textColor="@color/dgrey"
+        android:textColorHint="@color/dgrey"
+        android:background="@drawable/et_back"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        android:id="@+id/et_confirmPassword"
+        android:inputType="textPassword"
+        android:textColor="@color/dgrey"
+        android:textColorHint="@color/dgrey"
+        android:background="@drawable/et_back"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:id="@+id/bt_register"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/dgrey">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_account"
+        android:id="@+id/tv_alreadyAccount"
+        android:textColor="@color/dgrey"
+        android:layout_marginTop="40dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:textSize="14sp">
+    </TextView>
+
+</LinearLayout>

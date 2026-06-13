@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp"
+    android:background="@color/blue"
+    tools:context=".ForgotActivity">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_logo">
+    </ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_id"
+        android:id="@+id/et_emailID"
+        android:textColor="@color/dgrey"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/dgrey"
+        android:background="@drawable/et_back"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/new_password"
+        android:id="@+id/et_new_password"
+        android:inputType="textPassword"
+        android:textColor="@color/dgrey"
+        android:textColorHint="@color/dgrey"
+        android:background="@drawable/et_back"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/bt_submit"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/dgrey">
+    </Button>
+
+</LinearLayout>

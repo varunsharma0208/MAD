@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "266916211826",
+    "project_id": "edith-6ce1f",
+    "storage_bucket": "edith-6ce1f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266916211826:android:6f65d791c0d36b76a466eb",
+        "android_client_info": {
+          "package_name": "com.techiguru.edith"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxBy6klqKfGvN1Fa84nWFNJYxmOEbHI_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
